@@ -1,0 +1,767 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/564x/44/44/a3/4444a3069e52b4c34ae5630c500088c1.jpg);
+     background-size: cover;
+      background-position-x: center;
+      background-position-y:center ;
+      background-repeat: no-repeat;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+}
+#page4{
+    height: 200%;
+    width: 100%;
+    background-color: #000;
+}
+
+#page1 h1{
+    position: absolute;
+    color: rgb(242, 23, 89);
+    left: 16%;
+    top:30%;
+    font-size:500%;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    filter: blur(0.6px);
+    font-weight: 550;
+}
+#page1 h2{
+    
+    position: absolute;
+    color:white;
+    left: 16.5%;
+    top:34%;
+    font-size:200%;
+    text-transform: uppercase;
+    letter-spacing: 44px;
+    font-weight: 550;
+}
+#page1 h3{
+    position: absolute;
+    left: 25%;
+    top:42%;
+    font-size:190%;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 3px;
+}
+#page1 h4{
+    position: absolute;
+    color: white;
+    left: 29%;
+    top:47%;
+    font-size:130%;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+#page1 h5{
+    position: absolute;
+    color:white;
+    left: 20%;
+    top:53%;
+    font-size:130%;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    filter: blur(0.6px);
+    font-weight: 570;
+}
+#page1 #shoes{
+    position: absolute;
+    height: 30px;
+    width: 90px;
+    border-radius: 30px;
+    top: 60%;
+    left: 24%;
+    text-transform: uppercase;
+    background-color:rgb(242, 23, 89);
+    color: white;
+    border: solid 2px white;
+    letter-spacing: 1px;
+}
+#dress{
+    position: absolute;
+    height: 30px;
+    width: 90px;
+    border-radius: 30px;
+    top: 60%;
+    left: 37%;
+    text-transform: uppercase;
+    background-color:rgb(242, 23, 89);
+    color: white;
+    border: solid 2px white;
+    letter-spacing: 1px;
+}
+#page2 h3{
+    position: absolute;
+    top:130.3%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    color: white;
+    font-weight: 200;
+    font-size: 20   px;
+}
+#page2 h2{
+    position: absolute;
+    top:133.7%;
+    left: 48.2%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    font-weight: 80;
+    text-transform: lowercase;
+}
+#page2 span{
+    color:rgb(242, 23, 89) ;
+}
+#page2 p{
+    position: absolute;
+    top: 137%;
+    left: 25%;
+    color: white;
+}
+#page2 img{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top:112.7%;
+    left: 47%;
+    transform: translate(-50%,-50%);
+}
+#page2 h1{
+    position: absolute;
+    color: white;
+    top: 125%;
+    left: 42%;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 4px 1px rgb(242, 23, 89);
+    
+    
+}
+#page2 #fash{
+     color:white;
+     text-shadow: 4px 2px royalblue;
+    
+}
+#page2 #fashion{
+    position: absolute;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    top: 160%;
+    left: 38%;
+}
+#page2 #jewell{
+    position: absolute;
+    top: 160%;
+    left: 59%;
+}
+#book{
+    position: absolute;
+    color:white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 300;
+    top: 175%;
+    left: 34.4%;
+}
+#acces{
+    position: absolute;
+    color:white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    top: 175%;
+    left: 55%;
+}
+h6{
+    position: absolute;
+    color:white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 100;
+    top: 179.5%;
+    left: 52%;
+    letter-spacing: 3px;
+
+}
+#page2 #announce{
+    position: absolute;
+    color:white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 100;
+    top: 179.5%;
+    left: 31%;
+    letter-spacing: 3px;
+
+}
+#shop{
+    height: 28px;
+    width: 230px;
+    position: absolute;
+    background-color:rgb(242, 23, 89); 
+    color: white;
+    text-transform: uppercase;
+    top: 185%;
+    left: 30.5%;
+    border-radius: 20px;
+    border: solid 1px white;
+    font-weight: 500;
+}
+#now{
+        height: 28px;
+        width: 230px;
+        position: absolute;
+        background-color:rgb(242, 23, 89); 
+        color: white;
+        text-transform: uppercase;
+        top: 185%;
+        left: 52%;
+        border-radius: 20px;
+        border: solid 1px white;
+        font-weight: 500;
+    }
+    #page3 #pink{
+        height: 30%;
+        width: 100%;
+        background-image: url(https://i.pinimg.com/564x/4d/30/ef/4d30efeba9c93f06330cc76def2c1e73.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #pink h2{
+        position: absolute;
+        padding-top: 5%;
+        left: 35%;
+       color: aliceblue;
+       text-transform: uppercase;
+       font-weight: 300;
+       font-size: 27px;
+       letter-spacing: 3px;
+        
+    }
+    #pink h4{
+        position: absolute;
+        padding-top: 7.7%;
+        left: 26%;
+       color: aliceblue;
+       text-transform: uppercase;
+       font-weight: 200;
+       font-size: 18px;
+       letter-spacing: 2px;
+        
+    }
+    #pink p{
+        position: absolute;
+        padding-top: 9.5%;
+        left: 31%;
+       color: aliceblue;
+       text-transform: uppercase;
+       font-weight: 200;
+       font-size: 16px;
+       letter-spacing: 2px;
+        
+    }
+    #page3 h1{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding-top: 50px;
+         color:rgb(242, 23, 89);
+         text-transform: uppercase;
+         font-size: 52px;
+    }
+    #page3 #first{
+        color: white;
+        position: absolute;
+        top: 238%;
+        left: 45%;
+        font-size: 25px; 
+   }
+   #page3 #feature{
+    display: flex;
+         align-items: center;
+         justify-content: center;
+         padding-top: 8px;
+         color:white;
+         text-transform: uppercase;
+         font-size: 31px;
+         font-weight: 100;
+   }
+   #page3 #second{
+        color: white;
+        position: absolute;
+        top: 251%;
+        left: 43%;
+        font-size: 25px; 
+   }
+   #page3 #div1{
+    height: 278px;
+    width: 225px;
+    background-color: white;
+    position: absolute;
+    left: 20%;
+    top: 257%;
+   }
+   #page3 #div2{
+    height: 278px;
+    width: 225px;
+    background-color: white;
+    position: absolute;
+    left: 37%;
+    top: 257%;
+   }
+   #page3 #div3{
+    height: 278px;
+    width: 225px;
+    background-color: white;
+    position: absolute;
+    left: 54%;
+    top: 257%;
+   }
+   #page3 #div4{
+    height: 278px;
+    width: 225px;
+    background-color: white;
+    position: absolute;
+    left: 71%;
+    top: 257%;
+   }
+   #div1 img{
+    height: 170px;
+    width: 100%;
+   }
+   #div2  img{
+    height: 170px;
+    width: 100%;
+   }
+   #div3 img{
+    height: 170px;
+    width: 100%;
+   }
+   #div4 img{
+    height: 170px;
+    width: 100%;
+   }
+   #div1 h1{
+    color: #000;
+    font-size: 25px;
+     position: absolute;
+     left: 26px;
+     top: 130px;
+     text-transform: capitalize;
+}
+#div1 h4{
+    color: #000;
+    font-size: 18px;
+     position: absolute;
+     left: 90px;
+     top: 210px;
+     font-weight: 100;
+     text-transform: capitalize;
+}
+#div1 button{
+    color:white;
+    background-color:rgb(242, 23, 89); 
+    height: 30px;
+    width: 155px;
+    font-size: 15px;
+     position: absolute;
+     left: 39px;
+     top: 235.5px;
+     font-weight: 100;
+     text-transform: capitalize;
+     border: none;
+     text-transform: uppercase;
+}
+#div2  h1{
+    color: #000;
+    font-size: 25px;
+     position: absolute;
+     left: 26px;
+     top: 130px;
+     text-transform: capitalize;
+}
+#div2 h4{
+    color: #000;
+    font-size: 18px;
+     position: absolute;
+     left: 90px;
+     top: 210px;
+     font-weight: 100;
+     text-transform: capitalize;
+}
+#div2  button{
+    color:white;
+    background-color:rgb(242, 23, 89); 
+    height: 30px;
+    width: 155px;
+    font-size: 15px;
+     position: absolute;
+     left: 39px;
+     top: 235.5px;
+     font-weight: 100;
+     text-transform: capitalize;
+     border: none;
+     text-transform: uppercase;
+}
+#div3  h1{
+    color: #000;
+    font-size: 25px;
+     position: absolute;
+     left: 26px;
+     top: 130px;
+     text-transform: capitalize;
+}
+#div3 h4{
+    color: #000;
+    font-size: 18px;
+     position: absolute;
+     left: 90px;
+     top: 210px;
+     font-weight: 100;
+     text-transform: capitalize;
+}
+#div3  button{
+    color:white;
+    background-color:rgb(242, 23, 89); 
+    height: 30px;
+    width: 155px;
+    font-size: 15px;
+     position: absolute;
+     left: 39px;
+     top: 235.5px;
+     font-weight: 100;
+     text-transform: capitalize;
+     border: none;
+     text-transform: uppercase;
+}
+#div4  h1{
+    color: #000;
+    font-size: 25px;
+     position: absolute;
+     left: 26px;
+     top: 130px;
+     text-transform: capitalize;
+}
+#div4  h4{
+    color: #000;
+    font-size: 18px;
+     position: absolute;
+     left: 90px;
+     top: 210px;
+     font-weight: 100;
+     text-transform: capitalize;
+}
+#div4  button{
+    color:white;
+    background-color:rgb(242, 23, 89); 
+    height: 30px;
+    width: 155px;
+    font-size: 15px;
+     position: absolute;
+     left: 39px;
+     top: 235.5px;
+     font-weight: 100;
+     text-transform: capitalize;
+     border: none;
+     text-transform: uppercase;
+}
+#page4 #blue{
+    height: 33%;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+    top: 300%;
+    background-image: url(https://i.pinimg.com/564x/5a/9c/6a/5a9c6ac4e3d3b8f8756da8dd209792e1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#blue h1{
+    color: white;
+    font-weight: 100;
+}
+#blue h6{
+    color: white;
+    top: 16px;
+    font-size: 30px;
+    left: 600px;
+}
+#blue h5{
+    color: white;
+    font-weight:20px ;
+    position: absolute;
+    left: 42%;
+    font-size: 30px;
+}
+#blue h3{
+    color: white;
+    font-weight:100;
+    position: absolute;
+    left: 37%;
+    font-size: 25px;
+    top: 60%;
+}
+ #pink2{
+height: 60%;
+width: 23%;
+background-image: url(https://i.pinimg.com/236x/d0/25/99/d02599b0a53adfc8ddf5e6d7cd0533e8.jpg);
+position: absolute;
+top: 328%;
+left: 200px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+#pink2 h4{
+    color: white;
+    position: absolute;
+    left: 90px;
+    font-weight: 300;
+    font-size: 30px;
+}
+#pink2 h1{
+    line-height: 52px;
+    font-weight: 400;
+    color: white;
+}
+#pink2 h5{
+    color: white;
+    position: absolute;
+    left: 90px;
+    font-weight: 300;
+    font-size: 40px;
+}
+#pink2 h3{
+    color: white;
+    position: absolute;
+    left: 44px;
+    font-weight: 100;
+    font-size: 20px;
+    top: 45%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#page4 p{
+    color: white;
+    position: absolute;
+    top: 340%;
+    left: 700px;
+}
+
+#page5{
+    height: 90%;
+    width: 100%;
+    background-color:black;
+}
+ #page4 #make{
+    position: absolute;
+    top: 390%;
+    left:17%;
+    width: 15%;
+    height: 30%;
+ }
+ #page4 #circle{
+    height: 30px ;
+    width: 30px;
+    border: solid 2px white;
+    background-color: rgba(240, 248, 255, 0.032);
+    position: absolute;
+    border-radius: 90%;
+    top: 418%;
+    left: 23%;
+ }
+ #page4 #jewelry{
+    position: absolute;
+    top: 395%;
+    left: 35%;
+    width: 15%;
+    height: 30%;
+ }
+ #page4 #circle2{
+    height: 30px ;
+    width: 30px;
+    border: solid 2px white;
+    background-color: rgba(240, 248, 255, 0.032);
+    position: absolute;
+    border-radius: 90%;
+    top: 423%;
+    left: 41%;
+ }
+ #page4 #lorem1{
+    position: absolute;
+    top: 423%;
+    left: 16%;
+ }
+ #page4 #button1{
+     color: white;
+     position: absolute;
+     background-color: rgb(242, 23, 89);
+     height: 30px;
+     width: 16%;
+     text-transform: uppercase;
+     top: 433%;
+     left: 16%;
+     border-radius: 20px;
+     border: solid 1px white;
+ }
+ #page4 #lorem2{
+    position: absolute;
+    top: 428%;
+    left: 35%;
+ }
+ #page4 #button2{
+     color: white;
+     position: absolute;
+     background-color: rgb(242, 23, 89);
+     height: 30px;
+     width: 16%;
+     text-transform: uppercase;
+     top: 438%;
+     left: 35%;
+     border-radius: 20px;
+     border: solid 1px white;
+ }
+ #page5 #watch{
+    height: 30%;
+    width: 15%;
+    position: absolute;
+    left: 17%;
+    top: 441%;
+ }
+ 
+ #page5 #dia{
+    height: 25%;
+    width: 15%;position: absolute;
+    left: 36%;
+    top: 445%;
+ }
+ #page5 p{
+    position: absolute;
+    top: 473.4%;
+    left: 16%;
+    color: white;
+ }
+ #page5 #one{
+    color: white;
+    position: absolute;
+    background-color: rgb(242, 23, 89);
+    height: 30px;
+    width: 16%;
+    text-transform: uppercase;
+    top: 483%;
+    left:16.4%;
+    border-radius: 20px;
+    border: solid 1px white;
+}
+#page5 #circle{
+        height: 30px ;
+        width: 30px;
+        border: solid 2px white;
+        background-color: rgba(240, 248, 255, 0.032);
+        position: absolute;
+        border-radius: 90%;
+        top: 469%;
+        left: 23%
+}
+#page5 #second{
+    position: absolute;
+    top: 472%;
+    left: 36%;
+    color: white;
+    font-size: 16px;
+   
+ }
+ #page5 #two{
+    color: white;
+    position: absolute;
+    background-color: rgb(242, 23, 89);
+    height: 30px;
+    width: 16%;
+    text-transform: uppercase;
+    top: 481.2%;
+    left:36%;
+    border-radius: 20px;
+    border: solid 1px white;
+}
+#page5 #circle2{
+        height: 30px ;
+        width: 30px;
+        border: solid 2px white;
+        background-color: rgba(240, 248, 255, 0.032);
+        position: absolute;
+        border-radius: 90%;
+        top: 467.8%;
+        left: 42%
+}
+#page5 #blue{
+    height: 40%;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/564x/83/e8/ce/83e8cedde07d7da96124c77226ade6a6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 500%;
+}
+#page5 #blue img{
+    height: 77%;
+    width: 30%;
+    position: absolute;
+    left: 30%;
+}
+#page5 #blue h1{
+        position: absolute;
+        color: white;
+        top: 58%;
+        left: 38%;
+        font-size: 25px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-shadow: 4px 1px rgb(242, 23, 89);
+        gap: 10px;  
+}
+#page5 #blue span{
+        color:white ;
+        text-shadow: 3px 2px rgb(54, 101, 241);  
+}
+#page5 #blue h4{
+        color: white;
+        position: absolute;
+        top: 87%;
+        left: 35%;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 100;
+}
